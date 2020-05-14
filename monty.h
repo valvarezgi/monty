@@ -50,13 +50,18 @@ typedef struct holder
 
 extern holds hold;
 
+/* In opfunctions.c */
 void push(stack_t **stack, unsigned int line_number);
 void pall(stack_t **stack, unsigned int line_number);
 void pint(stack_t **stack, unsigned int line_number);
 void pop(stack_t **stack, unsigned int line_number);
 void swap(stack_t **stack, unsigned int line_number);
+
+/* In opfunctions1.c */
 void add(stack_t **stack, unsigned int line_number);
 void nop(stack_t **stack, unsigned int line_number);
+
+/* In aux.c */
 void free_list(stack_t *stack);
 void getops(stack_t **, unsigned int, char *);
 void tokenizer(char *, stack_t **, unsigned int);

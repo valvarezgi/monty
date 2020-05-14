@@ -13,7 +13,7 @@ void getops(stack_t **stack, unsigned int line_number, char *function)
 		{"pall", pall},
 		{"pint", pint},
 		{"pop", pop},
-		/* {"swap", _swap},*/
+		{"swap", swap},
 		/* {"add", _add},*/
 		/* {"nop", _nop},*/
 		{NULL, NULL}
