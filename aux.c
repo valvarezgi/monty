@@ -14,7 +14,7 @@ void getops(stack_t **stack, unsigned int line_number, char *function)
 		{"pint", pint},
 		{"pop", pop},
 		{"swap", swap},
-		/* {"add", _add},*/
+		{"add", add},
 		/* {"nop", _nop},*/
 		{NULL, NULL}
 	};
